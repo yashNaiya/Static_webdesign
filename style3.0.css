@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  background-color:white ;
+}
+
+
+h1 {
+  color: white ;
+  text-align: left;margin-left: 60px;
+  font-size: 40;
+  font-family: cursive;
+}
+
+.back{background-color:black;
+  color:white;}
+  
+  div.h2 {
+    
+    margin: 40px 650px 20px 0px;
+    background-color: transparent;
+  }
+  div.h7{
+    border: 5px solid black;
+    
+  }
+  
+  div.transbox {  
+    margin-left: 60px;
+    background-color: black;
+    opacity: 1;
+}
+
+
+.button {
+  font-family: cursive;
+  display: inline-block;
+  border-radius: 10px;
+  background:LightYellow;
+  opacity: 1;
+  border: 1.5px solid black;
+  color: solid black;
+  text-align: center;
+  font-size: 28px;
+  color:black;
+  padding: center;
+  width: 300px;
+  height: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 12px;
+}
+
+.button3 {
+  font-family: cursive;
+  display: inline-block;
+  border-radius: 3px;
+  background:gray;
+  border: 1px solid gray;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding:5px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button3:hover{ 
+  color: black;
+  border:2px solid  black: 
+  background-color:lightgray;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 5px;
+}
+.button:hover{
+  background-color:skyblue;
+  opacity: 1; 
+}
+.button4{
+  font-family: cursive;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button4:hover{
+  border-color: gray;
+}
+
+
+
+.bg1 {
+  background: url(radisson.jpg) no-repeat center; 
+  background-size: cover; 	
+  position: relative;
+  margin:0;
+  height: 580px;
+}
+
+}
+
+.bg3 {
+  background: url(rdsnh.jpg) no-repeat center; 
+  background-size: cover; 	
+  position: relative;
+  margin:0;
+}
+
+.bg4 {
+  background: url(rdsn.jpg) no-repeat center; 
+  background-size: cover; 	
+  position: relative;
+  margin:0;
+}
+
+div {
+  padding: 5px;
+  max-width: cover;
+}
+
+
+.img1 {
+  float: center;
+}
+
+.clearfix {
+  overflow: auto;
+
+  
+}
+a:link{
+  color:gray;
+  text-shadow: 1px 1px DodgerBlue;
+}
+
+a:hover{
+  color: red;
+  text-shadow: 1px 1px black;
+}
+a:active{
+  color: orange;
+  text-shadow: 1px 1px hotpink;
+}
+
+
+ *{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+  margin-bottom:50px;
+  opacity: 1;  
+}
+
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px;
+  opacity: 1;
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  opacity: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block; 
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:green;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: %;
+  margin-bottom: 50px;
+  padding: 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0px;
+  padding-left:25px; 
+  
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 40px; 
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+
+.icon-bar a:hover {
+  background-color:green;
+}
+
+.facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background:DodgerBlue ;
+  color: white;
+}
+
+.youtube {
+  background: red;
+  color: white;
+}
+.photo {
+  background:DodgerBlue ;
+  color: white;
+}
+
+
+.instagram {
+  background: #bb0000;
+  color: white;
+}
+
+.content {
+  margin-left: 75px;
+  font-size: 30px;
+}
+.pinterest{
+   background: OrangeRed;
+  color: red;
+
+}
+
+.card1{
+  font-family: "candara",sans-serif;
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
+  box-shadow:0 0 20px rgba(0,0,0,0.5);
+  display: flex; 
+  flex-direction: column; 
+}
+
+.card1-image img{
+  width :100%;
+  height: 160px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.profile-image img{
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  position:relative;
+  margin-top: -75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  border:10px solid white;
+  transition-duration: 0.4s;
+  transition-property: transform;
+
+}
+.profile-image img:hover{
+  transform: scale(1.1);
+
+}
+.card1-content h3{
+  font-size: 25px;
+  text-align:center;
+  margin: 0;
+}
+.card1-content p{
+  font-size: 16px;
+  text-align: center;
+  color: grey;
+}
+.icon{
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 30px;
+
+}
+
+.icon a{
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  padding: 0 14px;
+  transition-duration: 0.4s;
+  transition-property: transform;
+}
+
+.icon a:hover{
+  color: black;
+  transform: scale(1.5);
+}
+
+#more{
+  display: none;
+}
